@@ -59,7 +59,7 @@ p {
 
  @media (max-device-width:480px){
        /* Responsivo para celular menor que 480px; (iPhone) */
-       p.about{
+       p{
 		margin: 0 0 15px;
 		font-size: 20px;
 		line-height: 1.6;
