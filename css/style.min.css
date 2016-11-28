@@ -35,14 +35,37 @@ p, h1, h2, h3, h4, h5, h6  {
 	line-height: 1.5
 }
 
-@media ( min-width :768px) {
+/* Deixa o texto responsivo */
+@media ( min-width : 768px) {
 	p {
-		margin: 0 0 35px;
+		margin: 0 0 15px;
 		font-size: 20px;
-		line-height: 1.6
+		line-height: 1.6;
+		text-align: left;
+		color: black;
 	}
 }
 
+ @media (max-device-width:480px){
+       /* Responsivo para celular menor que 480px; (iPhone) */
+       p{
+		margin: 0 0 15px;
+		font-size: 20px;
+		line-height: 1.6;
+		text-align: left;
+		color: black;
+	}
+}
+    
+ @media (min-device-width:481px) {
+       p{
+		margin: 0 0 15px;
+		font-size: 20px;
+		line-height: 1.6;
+		text-align: justify;
+		color: black;
+	}
+}
 
 .light {
 	font-weight: 400

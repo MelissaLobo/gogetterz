@@ -14,7 +14,7 @@ html {
 h2, h3, h4 {
 	font-weight: 400;
 	text-align: center;
-	margin: 0 0 60px 0; 
+	margin: 0 0 60px 0;
 	color: black;
 	font-family: Arial Bold Italic, Arial, "Arial Bold Italic";
 }
@@ -23,11 +23,10 @@ h4 {
 	font-size: 30px;
 	font-weight: 400;
 	text-align: center;
-	margin: 0 0 60px 0; 
+	margin: 0 0 60px 0;
 	color: white;
 	font-family: Arial Bold Italic, Arial, "Arial Bold Italic";
 }
-
 
 h1, h5, h6 {
 	font-size: 16px;
@@ -45,7 +44,6 @@ p {
 	text-align: justify;
 }
 
-
 /* Deixa o texto responsivo */
 @media ( min-width : 768px) {
 	p {
@@ -57,26 +55,46 @@ p {
 	}
 }
 
- @media (max-device-width:480px){
-       /* Responsivo para celular menor que 480px; (iPhone) */
-       p{
-		margin: 0 0 15px;
-		font-size: 20px;
-		line-height: 1.6;
-		text-align: left;
-		color: black;
-	}
-    }
-    
- @media (min-device-width:481px) {
-       p{
+@media screen and (min-width :768px) {
+  p {
 		margin: 0 0 15px;
 		font-size: 20px;
 		line-height: 1.6;
 		text-align: justify;
 		color: black;
 	}
-    }
+}
+
+@media screen and (min-width: 992px) {
+  p {
+		margin: 0 0 15px;
+		font-size: 20px;
+		line-height: 1.6;
+		text-align: justify;
+		color: black;
+	}
+}
+
+@media ( max-device-width :480px) {
+	/* Responsivo para celular menor que 480px; (iPhone) */
+	p {
+		margin: 0 0 15px;
+		font-size: 20px;
+		line-height: 1.6;
+		text-align: left;
+		color: black;
+	}
+}
+
+@media ( min-device-width :480px) {
+	p {
+		margin: 0 0 15px;
+		font-size: 20px;
+		line-height: 1.6;
+		text-align: justify;
+		color: black;
+	}
+}
 
 a {
 	color: #78d2f9;
@@ -240,7 +258,6 @@ a, a:hover, a:active {
 	font-size: 18px;
 	text-align: center;
 	color: white;
-	
 }
 
 @media ( min-width : 768px) {
@@ -304,40 +321,60 @@ a, a:hover, a:active {
 50%
 {
 -webkit-transform
+
+
 :
+
  
+
 scale
+
+
 (1
 .2
-);
 
-    
+
+);
 transform
+
+
 :
+
  
+
 scale
+
+
 (1
 .2
-);
 
-  
+
+);
 }
 100%
 {
 -webkit-transform
-:
- 
-scale
-(1);
 
-    
+
+:
+
+ 
+
+scale
+
+
+(1);
 transform
-:
- 
-scale
-(1);
 
-  
+
+:
+
+ 
+
+scale
+
+
+(1);
 }
 }
 @
@@ -349,47 +386,65 @@ scale
 50%
 {
 -moz-transform
+
+
 :
+
  
+
 scale
+
+
 (1
 .2
-);
 
-    
+
+);
 transform
+
+
 :
+
  
+
 scale
+
+
 (1
 .2
-);
 
-  
+
+);
 }
 100%
 {
 -moz-transform
-:
- 
-scale
-(1);
 
-    
+
+:
+
+ 
+
+scale
+
+
+(1);
 transform
+
+
 :
+
  
+
 scale
+
+
 (1);
-
-  
 }
 }
-
 
 /* Conteudo Site */
-
-.container-contact{
+.container-contact {
 	background: white;
 }
 
@@ -431,9 +486,6 @@ p.contact {
 	color: white;
 }
 
-
-
-
 @media ( min-width : 767px) {
 	.content-section {
 		padding-top: 250px;
@@ -441,7 +493,6 @@ p.contact {
 	.download-section {
 		padding: 100px 0;
 	}
-
 }
 
 .btn {
@@ -563,7 +614,6 @@ footer span.copyright {
 	margin-bottom: 40px;
 }
 
-
 /* Imagens */
 .imagem-paulista {
 	display: table;
@@ -572,7 +622,8 @@ footer span.copyright {
 	padding: 350px 0;
 	text-align: center;
 	color: white;
-	background: url(../img/fundos/paulista.jpg) no-repeat bottom center scroll;
+	background: url(../img/fundos/paulista.jpg) no-repeat bottom center
+		scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -586,7 +637,8 @@ footer span.copyright {
 	padding: 350px 0;
 	text-align: center;
 	color: white;
-	background: url(../img/fundos/banespa.jpg) no-repeat bottom center scroll;
+	background: url(../img/fundos/banespa.jpg) no-repeat bottom center
+		scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -600,7 +652,8 @@ footer span.copyright {
 	padding: 350px 0;
 	text-align: center;
 	color: white;
-	background: url(../img/fundos/vinteetres.jpg) no-repeat bottom center scroll;
+	background: url(../img/fundos/vinteetres.jpg) no-repeat bottom center
+		scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -621,10 +674,9 @@ footer span.copyright {
 	-o-background-size: cover;
 }
 
-
 /* Equipe
 ---------------------------------*/
-.team{
+.team {
 	background: white;
 }
 
@@ -670,11 +722,10 @@ footer span.copyright {
 	height: 100%;
 	z-index: 10;
 	border-radius: 50%;
-	
 }
 
 .team-leader-shadow a {
-	display: block; 
+	display: block;
 	width: 100%;
 	height: 100%;
 }
@@ -753,6 +804,7 @@ footer span.copyright {
 .main-section.team h6 {
 	margin-bottom: 40px;
 }
+
 .main-section.team p.descricao {
 	margin: 0 0 25px;
 	font-size: 14px;
@@ -773,19 +825,20 @@ footer span.copyright {
 
 /*Clientes
 ---------------------------------*/
-.clients{
-	background: white;
-	margin-bottom: 0;
-}
-.portfolio-item{
-	width: 110px;
-	height: 110px;
-}
-.contact-section{
+.clients {
 	background: white;
 	margin-bottom: 0;
 }
 
+.portfolio-item {
+	width: 110px;
+	height: 110px;
+}
+
+.contact-section {
+	background: white;
+	margin-bottom: 0;
+}
 
 /*url
 ---------------------------------*/
@@ -833,22 +886,25 @@ body {
 	webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-body{padding-top:20px;}
+body {
+	padding-top: 20px;
+}
+
 .carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+	margin-bottom: 0;
+	padding: 0 40px 30px 40px;
 }
 /* The controlsy */
 .carousel-control {
 	left: -12px;
-    height: 40px;
+	height: 40px;
 	width: 40px;
-    background: none repeat scroll 0 0 #81c3d1;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
-    
+	background: none repeat scroll 0 0 #81c3d1;
+	border: 4px solid #FFFFFF;
+	border-radius: 23px 23px 23px 23px;
+	margin-top: 90px;
 }
+
 .carousel-control.right {
 	right: -12px;
 }
@@ -863,6 +919,7 @@ body{padding-top:20px;}
 .carousel-indicators li {
 	background: #81c3d1;
 }
+
 .carousel-indicators .active {
-background: #ff9bfb;
+	background: #ff9bfb;
 }
