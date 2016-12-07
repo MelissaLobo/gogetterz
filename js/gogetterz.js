@@ -53,7 +53,7 @@ contactForm.find("button").text("Enviando...");
 emailjs.sendForm(service_id,template_id,"contactForm")
 	.then(function(){ 
   	alert("E-mail enviado com sucesso!");
-  	contactForm.find("button").text("Send");
+  	contactForm.find("button").text("Enviar");
   }, function(err) {
      alert("Falha ao enviar e-mail!\r\n Response:\n " + JSON.stringify(err));
      contactForm.find("button").text("Enviar");
