@@ -44,7 +44,7 @@ var contactForm = $("form#contactForm");
 contactForm.submit(function(event){
 	event.preventDefault();
 
-var service_id = "default_service";
+var service_id = "gmail";
 var template_id = "contato";
 
 
