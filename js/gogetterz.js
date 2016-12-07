@@ -56,7 +56,7 @@ emailjs.sendForm(service_id,template_id,"contactForm")
   	contactForm.find("button").text("Send");
   }, function(err) {
      alert("Falha ao enviar e-mail!\r\n Response:\n " + JSON.stringify(err));
-     contactForm.find("button").text("Send");
+     contactForm.find("button").text("Enviar");
   });
 return false;
 });
